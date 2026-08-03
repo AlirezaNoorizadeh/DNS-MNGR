@@ -874,7 +874,7 @@ menu_change_dns() {
         esac
     done
 }
-
+ 
 main_menu() {
     while true; do
         print_banner
