@@ -1,4 +1,4 @@
-# 🌐 DNS-MANR
+# 🌐 DNS-MNGR
 
 > **A lightweight, interactive cross-platform CLI tool for managing, benchmarking, and securing DNS settings across Linux, macOS, and Windows.**
 
@@ -14,7 +14,7 @@
 
 ---
 
-**DNS-MANR** simplifies cross-platform DNS selection, latency benchmarking, and automated configuration. It offers specialized anti-sanction/gaming DNS options for Iranian users alongside top-tier global security providers, complete with automated backup/restore functionality and DoT/DoH setup support.
+**DNS-MNGR** simplifies cross-platform DNS selection, latency benchmarking, and automated configuration. It offers specialized anti-sanction/gaming DNS options for Iranian users alongside top-tier global security providers, complete with automated backup/restore functionality and DoT/DoH setup support.
 
 ---
 
@@ -46,15 +46,15 @@ dns-mngr.sh    # Standalone, zero-dependency Bash script for complete cross-plat
 #### Option 1: One-Line Remote Execution (Recommended)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/AlirezaNoorizadeh/DNS-MANR/main/dns-mngr.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/AlirezaNoorizadeh/DNS-MNGR/main/dns-mngr.sh | sudo bash
 
 ```
 
 #### Option 2: Clone & Execute Directly
 
 ```bash
-git clone [https://github.com/AlirezaNoorizadeh/DNS-MANR.git](https://github.com/AlirezaNoorizadeh/DNS-MANR.git)
-cd DNS-MANR
+git clone [https://github.com/AlirezaNoorizadeh/DNS-MNGR.git](https://github.com/AlirezaNoorizadeh/DNS-MNGR.git)
+cd DNS-MNGR
 chmod +x dns-mngr.sh
 sudo ./dns-mngr.sh
 
